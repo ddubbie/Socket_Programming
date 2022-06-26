@@ -39,7 +39,7 @@ DieWithSystemMessage("setsockopt() failed");
 
 ### Socket option
 
-![](C:\Users\kim62\Desktop\socketopt.png)
+![](socketopt.png)
 
 
 
@@ -215,7 +215,7 @@ unsigned int alarm(unsigned int secs);
 - In UNIX system, `fork()` creates  a new process and `waitpid()` terminates child process.
 - When a listening server accepts request, they *forks* child that deals with a client request.
 
-<img src="C:\Users\kim62\Desktop\fork_server.png" style="zoom:80%;" />
+<img src="fork_server.png" style="zoom:80%;" />
 
 ### API
 
@@ -259,7 +259,7 @@ Wait for child(s) process(es) and get information from it(them)
 - If a child process goes awry, it is easy to monitor and kill it rom the command line using its process identifile. Threads may not provide this capability on some platfroms, so additional server functionality must be provided to monitor and kill individual treads.
 - If the operating system is oblivious to the notion of threads, it may gives every process the same size time slice. In that case a threaded Web server handling hundreds of clients may get the same amount of CPU time as game of solitaire.
 
-<img src="C:\Users\kim62\Desktop\thread_server.png" style="zoom:75%;" />
+<img src="thread_server.png" style="zoom:75%;" />
 
 ## Constrained Multitasking
 
@@ -344,7 +344,7 @@ Structure for time. Setting both `tv_sec` and `tv_usec` to 0 causes `select()` t
 
 ​																				<Unicast and Multicast>
 
-<img src="C:\Users\kim62\Desktop\casting.png" alt="Unicast and multicast" style="zoom:67%;" />
+<img src="casting.png" alt="Unicast and multicast" style="zoom:67%;" />
 
 ​											
 
