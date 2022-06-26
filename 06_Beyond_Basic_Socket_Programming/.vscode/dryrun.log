@@ -1,0 +1,16 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/n2sl/Desktop/Socket_Programming/06_Beyond_Basic_Socket_Programming'
+echo "CC SigAction.c"
+gcc -Wall -O3 -o SigAction SigAction.c
+echo "CC UDPEchoServer_SIGIO.c"
+gcc -Wall -O3 -o UDPEchoServer_SIGIO UDPEchoServer_SIGIO.c
+echo "CC UDPEchoClient.c"
+gcc -Wall -O3 -o UDPEchoClient UDPEchoClient.c
+echo "CC UDPEchoClient_Timeout.c"
+gcc -Wall -O3 -o UDPEchoClient_Timeout UDPEchoClient_Timeout.c
+echo "CC TCPEchoServer_Fork.c"
+gcc -Wall -O3 -o TCPEchoServer_Fork TCPEchoServer_Fork.c
+echo "CC TCPEchoServer_Thread.c"
+gcc -Wall -O3 -o TCPEchoServer_Thread TCPEchoServer_Thread.c -lpthread
+make: Leaving directory '/home/n2sl/Desktop/Socket_Programming/06_Beyond_Basic_Socket_Programming'
+ 
