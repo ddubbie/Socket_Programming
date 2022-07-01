@@ -101,9 +101,9 @@ int sigdelset(sigset_t *set, int whichSignal)
 ```
 
 - `sigemptyset` : unset all of the flags in the given `set`
-- `sigfillset` : set all of the flags in the givent `set`
-- `sigaddset` : add given `whciSignal` to `set`
-- `sigdelset` : delete given `whichSignal` to `set`
+- `sigfillset` : set all of the flags in the given `set`
+- `sigaddset` : add given *whichSignal* to `set`
+- `sigdelset` : delete given *whichSignal* to `set`
 
 Returns :
 
@@ -170,8 +170,8 @@ Set file property(In UNIX, socket is also considered as file)
 
 
 ## Asynchronous I/O
-
-- A method that OS inform the program when a socket call is successful is called **Asynchronous I/O** .
+- The difficulty with nonblocking socket calls is that there is no way of knowing when one would succeed, except by periodically trying it until it does(known as *polling*)
+- A method that OS inform the program when a socket call is successful is called **Asynchronous I/O**, which transfers a callback function to handle a success event.
 - `SIGIO` signal delivers th the process when I/O-related event occurs on the socket.
 - Two steps to set **Nonblocking** and **Asynchronous I/O**
   - Register `SIGIO` with `sigaction()`
