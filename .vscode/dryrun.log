@@ -1,6 +1,7 @@
-make --dry-run --keep-going --print-directory
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/n2sl/Desktop/Socket_Programming'
+ 
 make: Leaving directory '/home/n2sl/Desktop/Socket_Programming'
  
-make: *** No targets.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
 

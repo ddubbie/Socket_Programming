@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jun 26 20:07:14 2022
+# Make data base, printed on Tue Jul  5 17:53:32 2022
 
 # Variables
 
@@ -40,8 +40,8 @@ VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePac
 _ = /home/n2sl/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node
 # environment
 NETRONOME_DIR = /opt/netronome
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST :=  Makefile
+# makefile
+MAKEFILE_LIST := 
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -57,9 +57,8 @@ LC_NAME = ko_KR.UTF-8
 # environment
 VSCODE_CWD = /home/n2sl
 # environment
-SSH_CONNECTION = 10.20.16.58 25022 10.20.17.31 51111
+SSH_CONNECTION = 10.20.16.58 2192 10.20.17.31 51111
 # environment
- 
 PATH = /home/n2sl/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/n2sl/bin:/home/n2sl/.local/bin:/home/n2sl/.local/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/netronome/bin
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
@@ -82,7 +81,7 @@ PWD = /home/n2sl/Desktop/Socket_Programming
 # environment
 QT_QPA_PLATFORMTHEME = appmenu-qt5
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-6eba9b51-d733-4778-95ac-1f82db675e93.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-5d71a257-4025-4e0e-ab44-8090a9741d67.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -121,7 +120,6 @@ LC_MONETARY = ko_KR.UTF-8
 %D = $(patsubst %/,%,$(dir $%))
 # environment
 LC_TELEPHONE = ko_KR.UTF-8
- 
 # environment
 CONDA_SHLVL = 0
 # default
@@ -135,7 +133,7 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 10.20.16.58 25022 51111
+SSH_CLIENT = 10.20.16.58 2192 51111
 # environment
 MAIL = /var/mail/n2sl
 # automatic
@@ -179,7 +177,7 @@ VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=82/1024=8%, Rehash=0, Collisions=11/106=10%
+# Load=82/1024=8%, Rehash=0, Collisions=11/104=11%
 
 # Pattern-specific Variable Values
 
@@ -207,9 +205,16 @@ all:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-17 13:40:03.254999638
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
 
 # Not a target:
 .DEFAULT:
@@ -217,20 +222,27 @@ Makefile:
 #  Modification time never checked.
 #  File has not been updated.
 
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
 # files hash-table stats:
-# Load=4/1024=0%, Rehash=0, Collisions=0/14=0%
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 226 B / avg = 13 B
-# current buf: size = 8162 B / used = 226 B / count = 17 / avg = 13 B
+# strcache buffers: 1 (0) / strings = 20 / storage = 260 B / avg = 13 B
+# current buf: size = 8162 B / used = 260 B / count = 20 / avg = 13 B
 
-# strcache performance: lookups = 21 / hit rate = 19%
+# strcache performance: lookups = 23 / hit rate = 13%
 # hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=1/21=5%
-# Finished Make data base on Sun Jun 26 20:07:14 2022
+# Load=20/8192=0%, Rehash=0, Collisions=1/23=4%
+# Finished Make data base on Tue Jul  5 17:53:32 2022
 
  
